@@ -1,0 +1,14 @@
+vendor/
+.env
+.env.*
+*.key
+*.pem
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.log
+.cache/
+build/
+bin/
+coverage*
