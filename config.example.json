@@ -1,0 +1,14 @@
+{
+  "listen_addr": "127.0.0.1",
+  "listen_port": 15353,
+  "root_hints": [
+    { "name": "a.root.", "ipv4": "127.0.0.2" }
+  ],
+  "upstream_port": 15354,
+  "upstream_timeout_ms": 3000,
+  "query_deadline_sec": 30,
+  "max_upstream_queries": 64,
+  "max_delegation_depth": 24,
+  "cache_max_entries": 1024,
+  "cache_max_negative_ttl": 3600
+}
