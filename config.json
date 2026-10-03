@@ -1,0 +1,9 @@
+{
+  "listen_addr": "127.0.0.1:8053",
+  "root_hints": ["127.0.0.2"],
+  "upstream_port": 15353,
+  "upstream_timeout_ms": 2000,
+  "resolve_timeout_ms": 8000,
+  "max_upstream_queries": 64,
+  "cache_max_entries": 1024
+}
